@@ -17,7 +17,7 @@ public class Converter {
         return result;
     }
 
-    public static float dollarToEuro(float value){
+    public static float dollarToEuro(float value) {
         float result = value * 0.85F;
         return result;
     }
