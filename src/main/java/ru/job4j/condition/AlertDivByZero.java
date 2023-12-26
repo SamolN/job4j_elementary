@@ -8,7 +8,7 @@ public class AlertDivByZero {
         }
         result = number < 0;
         if (result) {
-            System.out.println("Negative number" );
+            System.out.println("Negative number");
         }
     }
 
