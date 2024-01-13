@@ -29,23 +29,23 @@ public class Converter {
         boolean passed = expected == output;
         System.out.println("140 rubles are 2. Test result : " + passed);
 
-        float input1 = 120;
-        float expected1 = 2;
-        float output1 = Converter.rubleToDollar(input1);
-        boolean passed1 = expected == output;
-        System.out.println("120 rubles are 2. Test result : " + passed1);
+        input = 120;
+        expected = 2;
+        output = Converter.rubleToDollar(input);
+        passed = expected == output;
+        System.out.println("120 rubles are 2. Test result : " + passed);
 
-        float input3 = 1000;
-        float expected3 = 1160;
-        float output3 = Converter.euroToDollar(input3);
-        boolean passed3 = expected3 == output3;
-        System.out.println("1000 euro are 1160. Test result : " + passed3);
+        input = 1000;
+        expected = 1160;
+        output = Converter.euroToDollar(input);
+        passed = expected == output;
+        System.out.println("1000 euro are 1160. Test result : " + passed);
 
-        float input4 = 1000;
-        float expected4 = 850;
-        float output4 = Converter.dollarToEuro(input4);
-        boolean passed4 = expected4 == output4;
-        System.out.println("1000 dollars are 850. Test result : " + passed4);
+        input = 1000;
+        expected = 850;
+        output = Converter.dollarToEuro(input);
+        passed = expected == output;
+        System.out.println("1000 dollars are 850. Test result : " + passed);
 
         }
 }
