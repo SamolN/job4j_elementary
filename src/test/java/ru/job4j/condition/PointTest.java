@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.withPrecision;
 
 class PointTest {
-        @Test
+    @Test
     void when00to20then() {
         double expected = 2;
         int x1 = 0;
@@ -15,7 +15,8 @@ class PointTest {
         int y2 = 0;
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
-    }
+         }
+
     @Test
     void whenMinus221to22then() {
         double expected = 4;
