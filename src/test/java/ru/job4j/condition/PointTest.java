@@ -28,7 +28,7 @@ class PointTest {
     }
 
     @Test
-    void whenMinus111221to22then() {
+    void when3Minus3to02thenDot() {
         double expected = 5.83;
         int x1 = 3;
         int y1 = -3;
