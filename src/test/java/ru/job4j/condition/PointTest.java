@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.withPrecision;
 
 class PointTest {
     @Test
-    void when00to20then() {
+    void when00to20then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -18,7 +18,7 @@ class PointTest {
          }
 
     @Test
-    void whenMinus221to22then() {
+    void whenMinus221to22then4() {
         double expected = 4;
         int x1 = -2;
         int y1 = 2;
@@ -29,7 +29,7 @@ class PointTest {
     }
 
     @Test
-    void when3Minus3to02thenDot() {
+    void when3Minus3to02then5Dot83() {
         double expected = 5.83;
         int x1 = 3;
         int y1 = -3;
@@ -38,5 +38,4 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-
 }
